@@ -2,7 +2,7 @@ import os
 import requests
 import boto3
 from chalice import Chalice
-app = Chalice(app_name='HCSS')
+app = Chalice(app_name='AppName')
 app.debug = True
 
 
